@@ -25,6 +25,7 @@ p {
 }
 
 img {
+   width: 500px; 
     margin: 0 auto;
     display: block;
     border-radius: 4px;
@@ -61,3 +62,21 @@ a {
     font-weight: bolder;
 }
 
+@media (max-width: 900px) {
+    .btn {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    img{
+        width: 200px;
+    }
+
+    .content{
+        font-size: 10px;
+    }
+
+    h1, h2{
+        font-size: 20px ;
+    }
+}
