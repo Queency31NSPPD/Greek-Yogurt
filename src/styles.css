@@ -1,5 +1,6 @@
 body {
-display: block;background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
+display: block;
+background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
     color: #fff;
    padding: 0;
     margin: 60px 60px;
@@ -77,12 +78,17 @@ margin-right: 20px;
    
  }
 
+ .container{
+            max-width: 600px;
+            margin: 30px auto;
+ }
+
 @media (max-width: 900px) {
     .btn {
        
         font-size: 15px;
         margin-right: 30px;
-        margin-left: 10px;
+        margin-left: -10px;
     }
 
     img{
@@ -92,7 +98,9 @@ margin-right: 20px;
 
     .content{
         font-size: 15px;
- 
+text-align: justify;
+
+    margin:auto -25px;
         
     }
 
